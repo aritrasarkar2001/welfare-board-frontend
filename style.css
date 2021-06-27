@@ -133,3 +133,25 @@ border-radius: 3px 0 0 3px;
 background-color: #f1f1f1;
 color: black;
 }
+
+.card{
+  border: 0px  !important;
+  border-bottom: 2px solid rgba(0,0,0,.125) !important;;
+}
+.card-text{
+  font-size: smaller;
+}
+
+.card-title{
+  font-weight: bold;
+}
+
+.read_more span{
+  color: rgb(18, 18, 73);
+  font-size: smaller;
+}
+
+
+.achievements{
+  margin-left: 150px;
+}

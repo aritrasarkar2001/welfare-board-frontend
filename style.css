@@ -8,7 +8,8 @@
     display:flex;
     align-items: center;
     justify-content: center;
-    padding-top:5px;
+    padding-top:15px;
+
   }
    
    
@@ -27,7 +28,7 @@
   color:rgb(255, 255, 255);
   border:3px solid rgb(20, 33, 58)  ;
   background-color:  rgb(20, 33, 58) ;
-  padding: 8px;
+  padding:10px;
 }
 
 
@@ -41,7 +42,7 @@
   margin-top:30px;
   margin-left:110px;
   list-style-type: none;
-  padding-bottom: 10px ;
+ 
   
  
 }
@@ -93,7 +94,7 @@
  
    margin-left:150px;
    margin-top:120px;
-   margin-right:450px;
+   margin-right:520px;
   
    }
 
@@ -106,13 +107,18 @@
   font-weight: bold;
 }
 
+
+
+/*
  .sideNav{
-  
+   
    float :right;
    margin-top: 140;
-   margin-right: 100;
+   margin-right: 150;
    list-style-type: none;
    font-size: large;
+  
+ 
   }
 
 
@@ -121,6 +127,7 @@
     color: rgb(138, 133, 133);
    
     text-decoration:none;
+    
 
   }
 
@@ -128,16 +135,23 @@
   #contents{
     font-weight:bolder;
   }
+
+*/
+
+
+
+
   
 
- #about{
-   font-weight: bold;
+ .aboutWelfare{
+   margin-top: 20px;
  }
 
- #vision{
-  font-weight: bold;
+ .ourVision{
+   margin-top: 30px;
  }
-   
+
+
 
 /*slideshow */
 

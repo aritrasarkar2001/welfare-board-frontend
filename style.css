@@ -109,34 +109,7 @@
 
 
 
-/*
- .sideNav{
-   
-   float :right;
-   margin-top: 140;
-   margin-right: 150;
-   list-style-type: none;
-   font-size: large;
-  
- 
-  }
 
-
-   .sideNav li a {
-    
-    color: rgb(138, 133, 133);
-   
-    text-decoration:none;
-    
-
-  }
-
-
-  #contents{
-    font-weight:bolder;
-  }
-
-*/
 
 
 
@@ -221,4 +194,51 @@ color: black;
 
 .achievements{
   margin-left: 150px;
+}
+
+/* Announcements */
+.announcements{
+  margin-left:150px;
+  margin-top:120px;
+  margin-right:450px;
+  display: flex;
+  flex-direction: column;
+}
+
+.announce{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 27px;
+}
+
+.box{
+  background: #FFFFFF;
+  border: 1px solid #D7DDE1;
+  border-radius: 4px;
+  padding: 40px;
+}
+
+.boxes{
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+}
+
+.info{
+  display: flex;
+  justify-content: space-between;
+}
+
+.date{
+  font-size: smaller;
+}
+
+.heading{
+  font-weight: bolder;
+  font-size : xx-large;
+
+}
+
+.content{
+  font-weight: normal;
 }

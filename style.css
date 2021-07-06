@@ -8,7 +8,8 @@
     display:flex;
     align-items: center;
     justify-content: center;
-    padding-top:5px;
+    padding-top:15px;
+
   }
    
    
@@ -17,6 +18,7 @@
       padding: 6px;
       display:inline;
       font-family:calibri ;
+      font-size: normal;
  }
     
    
@@ -27,23 +29,22 @@
   color:rgb(255, 255, 255);
   border:3px solid rgb(20, 33, 58)  ;
   background-color:  rgb(20, 33, 58) ;
-  padding: 8px;
+  padding:10px;
 }
 
 
 
 
-
+/*Top Nav Bar*/
 
 .topNav{
   
   display: flex;
   margin-top:30px;
-  margin-left:110px;
+  margin-left:180px;
   list-style-type: none;
-  padding-bottom: 10px ;
+  font-size: larger;
   
- 
 }
 
     
@@ -61,12 +62,14 @@
      }
 
 
+  /*Bottom Nav Bar*/   
     
     .bottomNav{
       display: flex;
-      margin-left:50px;
+      margin-left:100px;
       list-style-type: none;
-     
+      
+      font-size: larger;
       
     }
 
@@ -88,17 +91,19 @@
      
     }
 
+
+
  .welcome{
  
  
    margin-left:150px;
    margin-top:120px;
-   margin-right:450px;
-  
+   margin-right:520px;
+   font-size: larger;
    }
 
  p{
-   font-size: large;
+   font-size: larger;
  }
 
  a:hover{
@@ -106,50 +111,47 @@
   font-weight: bold;
 }
 
- .sideNav{
+
+#contentHead{
+  display:inline ;
+}
+
+.middle{
+  float:right;
+  margin:150px;
+  border-left: 3px solid rgb(133, 129, 129);
+  font-size: larger;
   
-   float :right;
-   margin-top: 140;
-   margin-right: 100;
-   list-style-type: none;
-   font-size: large;
-  }
+ 
+}
 
 
-   .sideNav li a {
-    
-    color: rgb(138, 133, 133);
-   
-    text-decoration:none;
-
-  }
 
 
-  #contents{
-    font-weight:bolder;
-  }
   
 
- #about{
-   font-weight: bold;
+ .aboutWelfare{
+   margin-top: 20px;
  }
 
- #vision{
-  font-weight: bold;
+ .ourVision{
+   margin-top: 30px;
  }
-   
+
+
 
 /*slideshow */
 
     * {box-sizing: border-box}
-.mySlides1, .mySlides2 {display: none}
+.mySlides1 {display: none}
 img {vertical-align: middle;
+ 
 
 }
 
 /* Slideshow container */
 .slideshow-container {
-max-width: 1200px;
+max-width: 90%;
 position: relative;
 margin: auto;
 
@@ -246,11 +248,7 @@ color: black;
   font-size: smaller;
 }
 
-.heading{
-  font-weight: bolder;
-  font-size : xx-large;
 
-}
 
 .content{
   font-weight: normal;

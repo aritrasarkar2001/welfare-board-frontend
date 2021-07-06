@@ -64,32 +64,25 @@
 
   /*Bottom Nav Bar*/   
     
-    .bottomNav{
-      display: flex;
-      margin-left:100px;
-      list-style-type: none;
-      
-      font-size: larger;
-      
-    }
-
+  .nav-item a {
+    color:rgb(151, 151, 151);
+    font-weight:900;
+    font-size: large;
     
-
-    .bottomNav li a {
-     
-      color: rgb(8, 8, 8);
-      text-align: center;
-      padding: 14px 16px;
-      text-decoration:none;
-     
-    }
-    
-    #Home{
-      display: inline;
-      
-      color: blue;
-     
-    }
+ }
+ 
+ 
+ .nav-item a:hover{
+   color:rgb(0, 0, 0);
+   background-color: rgb(228, 228, 222);
+ }
+ 
+ #home{
+    color:blue;
+    margin-left: 20px;
+ }
+ 
+ 
 
 
 
@@ -106,10 +99,6 @@
    font-size: larger;
  }
 
- a:hover{
-    
-  font-weight: bold;
-}
 
 
 #contentHead{
